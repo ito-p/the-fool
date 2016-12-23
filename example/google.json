@@ -1,10 +1,9 @@
 {
   "data": [
     ["goto", "https://www.google.co.jp/"],
-    ["type", "form[action='/search']", "aaa"],
+    ["type", "form[action='/search']", "fool"],
     ["click", "form[action*='/search'] [type=submit]"],
-    ["wait", "#main ._NId .g h3 a"],
-    ["scrape", "#main ._NId .g h3 a", "href"],
-    ["snatch", "#main ._NId .g h3 a", "href"]
+    ["wait", "._NId h3 a"],
+    ["snatch", "._NId h3 a", "innerText"]
   ]
 }

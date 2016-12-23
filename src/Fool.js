@@ -14,6 +14,6 @@ export default class Fool {
 
   departure(itinerary) {
     const guidance = itinerary.getGuidance();
-    // return guidance();
+    return guidance();
   }
 }

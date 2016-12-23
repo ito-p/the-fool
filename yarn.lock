@@ -14,10 +14,6 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-any-promise@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
-
 anymatch@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.0.tgz#a3e52fa39168c825ff57b0248126ce5a8ff95507"
@@ -715,10 +711,6 @@ builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
-bytes@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/bytes/-/bytes-1.0.0.tgz#3569ede8ba34315fab99c3e92cb04c7220de1fa8"
-
 camelcase-keys@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
@@ -771,13 +763,6 @@ clone@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
-co-body@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/co-body/-/co-body-2.0.0.tgz#7302abb8e88a2ce084f67ca4f3162c1b54a64b67"
-  dependencies:
-    qs "~2.4.1"
-    raw-body "~1.3.4"
-
 co-mocha@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/co-mocha/-/co-mocha-1.1.3.tgz#49bb9c85bcd17e3250f8b84b875dc76668bc41dc"
@@ -789,10 +774,6 @@ co-supertest@0.0.10:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/co-supertest/-/co-supertest-0.0.10.tgz#2cdb284e8ba803a08c379ecfde1ee8eeca8f8332"
 
-co@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/co/-/co-3.1.0.tgz#4ea54ea5a08938153185e15210c68d9092bc1b78"
-
 co@^4.0.0, co@^4.5.4:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -800,10 +781,6 @@ co@^4.0.0, co@^4.5.4:
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
-
-combine-errors@2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/combine-errors/-/combine-errors-2.0.0.tgz#6ca13e4773111d8e7a74958966a4f4ff589960c3"
 
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
@@ -1357,10 +1334,6 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-iconv-lite@0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.8.tgz#c6019a7595f2cefca702eab694a010bcd9298d20"
-
 ignore-by-default@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ignore-by-default/-/ignore-by-default-1.0.1.tgz#48ca6d72f6c6a3af00a9ad4ae6876be3889e2b09"
@@ -1541,10 +1514,6 @@ jodid25519@^1.0.0:
   resolved "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
   dependencies:
     jsbn "~0.1.0"
-
-js-combinatorics@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/js-combinatorics/-/js-combinatorics-0.5.2.tgz#f060749232ea1b770076ff97aed6cfa9ab41b8f4"
 
 js-tokens@^2.0.0:
   version "2.0.0"
@@ -2121,10 +2090,6 @@ qs@2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/qs/-/qs-2.3.3.tgz#e9e85adbe75da0bbe4c8e0476a086290f863b404"
 
-qs@~2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-2.4.2.tgz#f7ce788e5777df0b5010da7f7c4e73ba32470f5a"
-
 qs@~6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
@@ -2135,13 +2100,6 @@ randomatic@^1.1.3:
   dependencies:
     is-number "^2.0.2"
     kind-of "^3.0.2"
-
-raw-body@~1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-1.3.4.tgz#ccc7ddfc46b72861cdd5bb433c840b70b6f27f54"
-  dependencies:
-    bytes "1.0.0"
-    iconv-lite "0.4.8"
 
 rc@^1.0.1, rc@^1.1.2, rc@~1.1.6:
   version "1.1.6"
@@ -2390,7 +2348,7 @@ sliced@0.0.5:
   version "0.0.5"
   resolved "http://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz#5edc044ca4eb6f7816d50ba2fc63e25d8fe4707f"
 
-sliced@1.0.1, sliced@^1.0.1:
+sliced@1.0.1:
   version "1.0.1"
   resolved "http://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
 
@@ -2706,16 +2664,6 @@ verror@1.3.6:
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.3.6.tgz#cff5df12946d297d2baaefaa2689e25be01c005c"
   dependencies:
     extsprintf "1.0.2"
-
-vo@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/vo/-/vo-4.0.2.tgz#c3ec4965cd1dc2b3cea3d4dcb3a0bb8bd8575ff9"
-  dependencies:
-    any-promise "1.3.0"
-    co "3.1.0"
-    combine-errors "2"
-    debug "2.2.0"
-    sliced "^1.0.1"
 
 wide-align@^1.1.0:
   version "1.1.0"

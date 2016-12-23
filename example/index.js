@@ -7,7 +7,6 @@ const json = fs.readFileSync(readPath, 'utf8');
 const googleItinerary = JSON.parse(json);
 
 const fool = new Fool();
-fool.travel(googleItinerary);
-// fool.travel(googleItinerary).then(results => {
-//   console.log(results);
-// });
+fool.travel(googleItinerary).then(results => {
+  console.log(results);
+});

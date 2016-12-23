@@ -1,9 +1,8 @@
-import vo from 'vo';
+import co from 'co';
 import Sequences from './Sequences';
 
 export default class Itinerary {
   constructor(json, scraper) {
-
     if (Array.isArray(json.data) === false) {
       throw new Error('json.data is must be array.');
     }
@@ -13,26 +12,18 @@ export default class Itinerary {
   }
 
   getGuidance() {
-
     const sequences = this._sequences;
     const scraper = this._scraper;
-    const v = vo(function* (){
+
+    return co.wrap(function* (){
+      const results = [];
       while(sequences.isFinished === false) {
         const result = yield sequences.execute(scraper);
-        console.log(result);
+        results.push(result);
       }
-    })
-    .then(result => {
-      console.log('resultdesu', result);
-    })
-    .catch(err => {
-      console.error(err);
+      return results
+        .filter(result => result && result.isRequired)
+        .map(result => result.data);;
     });
-    //   return results
-    //     .filter(result => result && result.isRequired)
-    //     .map(result => result.data);
-    // }).then(status => {
-    //   console.log(status);
-    // }).catch(e => console.error(e));
   }
 }

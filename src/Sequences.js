@@ -7,13 +7,13 @@ export default class Sequences {
     this._currentIndex = 0;
     this._sequences.push(new Sequence());
 
-    rawCommands.forEach(item => {
+    rawCommands.forEach((item, index) => {
       const command = new Command(item);
-      if (command.isEvaluate) {
+      this._sequences[this._sequences.length - 1].pushCommand(command);
+      if (command.isEvaluate && rawCommands.length - 1 > index) {
         this._sequences.push(new Sequence());
       }
-      this._sequences[this._sequences.length - 1].pushCommand(command);
-    });
+    }, this);
   }
 
   get isFinished() {
