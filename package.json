@@ -1,0 +1,35 @@
+{
+  "name": "fool",
+  "version": "0.0.1",
+  "description": "site scraper",
+  "main": "index.js",
+  "repository": "https://github.com/ito-p/fool",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "example": "nodemon example/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "author": "ito-p <not.1010.number@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.5.4",
+    "co-body": "^2.0.0",
+    "debug": "^2.2.0",
+    "js-combinatorics": "^0.5.2",
+    "nightmare": "^2.9.0",
+    "vo": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.0.0",
+    "co-mocha": "^1.1.2",
+    "co-supertest": "0.0.10",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.11.0",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.0.1"
+  }
+}
