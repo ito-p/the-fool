@@ -1,2 +1,2 @@
-import Fool from './src/Fool';
-export default Fool;
+require('babel-polyfill');
+module.exports = require('./dist/Fool');
