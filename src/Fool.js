@@ -3,8 +3,9 @@ import Itinerary from './Itinerary';
 import co from 'co';
 
 export default class Fool {
-  constructor() {
-    this.nightmare = Nightmare({ show: true });
+  constructor(options = {}) {
+    const { show = true } = options;
+    this.nightmare = Nightmare({ show });
   }
 
   travel(json) {
