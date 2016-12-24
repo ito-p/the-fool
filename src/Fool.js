@@ -9,11 +9,15 @@ export default class Fool {
 
   travel(json) {
     const itinerary = new Itinerary(json, this.nightmare);
-    return this.departure(itinerary);
+    return this._departure(itinerary);
   }
 
-  departure(itinerary) {
+  _departure(itinerary) {
     const guidance = itinerary.getGuidance();
     return guidance();
+  }
+
+  kill() {
+    this.nightmare.halt();
   }
 }
