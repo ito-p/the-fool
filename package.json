@@ -1,11 +1,13 @@
 {
-  "name": "fool",
+  "name": "the-fool",
   "version": "0.0.1",
-  "description": "site scraper",
-  "main": "index.js",
-  "repository": "https://github.com/ito-p/fool",
+  "description": "WEB site scraper in nightmare",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/ito-p/the-fool",
   "scripts": {
     "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "yarn build",
     "example": "nodemon example/index.js --exec babel-node --presets es2015,stage-2",
     "test": "jest"
   },
