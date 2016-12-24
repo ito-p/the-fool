@@ -2,7 +2,7 @@
   "name": "the-fool",
   "version": "0.0.1",
   "description": "WEB site scraper in nightmare",
-  "main": "./dist/index.js",
+  "main": "./dist/Fool.js",
   "repository": "https://github.com/ito-p/the-fool",
   "scripts": {
     "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
