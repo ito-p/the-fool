@@ -1,6 +1,6 @@
 {
   "name": "the-fool",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "WEB site scraper in nightmare",
   "main": "index.js",
   "repository": "https://github.com/ito-p/the-fool",

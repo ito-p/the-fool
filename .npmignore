@@ -1,2 +1,4 @@
 src
 example
+*.sublime-project
+*.sublime-workspace
