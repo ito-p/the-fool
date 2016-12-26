@@ -1,6 +1,6 @@
 {
   "name": "the-fool",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "WEB site scraper in nightmare",
   "main": "index.js",
   "repository": "https://github.com/ito-p/the-fool",
@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "co": "^4.5.4",
-    "jest-cli": "^18.0.0",
     "nightmare": "^2.9.0"
   },
   "devDependencies": {
@@ -24,6 +23,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.18.0",
     "babel-register": "^6.18.0",
+    "jest-cli": "^18.0.0",
     "nodemon": "^1.11.0"
   },
   "jest": {
