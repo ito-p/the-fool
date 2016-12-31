@@ -23,7 +23,12 @@ export default class Sequence {
   _executeCommand(scraper, command) {
     if (command.method === 'scrape') {
       return scraper.evaluate(function(query, property) {
-        console.log(query);
+        if (document.querySelector(query) === null) {
+          return {
+            isRequired: true,
+            data: ''
+          }
+        }
         return {
           isRequired: true,
           data: document.querySelector(query)[property]
