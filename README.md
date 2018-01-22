@@ -2,6 +2,11 @@
 
 The Foolは、jsonを渡すとスクレイピングしてきてくれます。
 
+## Breaking changes
+
+### v1.0.0
+- Nightmare.jsは外から注入して使うようになりました！
+
 ## スクレイピング
 サイト内の情報を取得します。
 ### 用意するjson
@@ -19,6 +24,8 @@ The Foolは、jsonを渡すとスクレイピングしてきてくれます。
 
 ### サンプルコード
 ```es6
+import Nightmare from 'nightmare';
+
 const data = {
   data: [
     ["goto", "https://www.google.co.jp/"],
@@ -29,7 +36,7 @@ const data = {
   ]
 };
 
-const fool = new Fool();
+const fool = new Fool(Nightmare({ show: true }));
 
 fool.travel(data)
   .then(result => {

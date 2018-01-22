@@ -1,11 +1,11 @@
-import Nightmare from 'nightmare';
 import Itinerary from './Itinerary';
 import co from 'co';
 
 export default class Fool {
-  constructor(options = {}) {
-    const { show = true } = options;
-    this.nightmare = Nightmare({ show });
+  constructor(nightmare, options = {}) {
+    if (!nightmare) throw new Error('Please give me Nightmare into constructor argument 1 !');
+
+    this.nightmare = nightmare;
   }
 
   travel(json) {

@@ -1,6 +1,6 @@
 {
   "name": "the-fool",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "WEB site scraper in nightmare",
   "main": "index.js",
   "repository": "https://github.com/ito-p/the-fool",
@@ -14,8 +14,7 @@
   "author": "ito-p <not.1010.number@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "co": "^4.5.4",
-    "nightmare": "^2.9.0"
+    "co": "^4.5.4"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
